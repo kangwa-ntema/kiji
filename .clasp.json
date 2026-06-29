@@ -1,0 +1,21 @@
+{
+  "scriptId": "1cT7SSGrqiNrr7WsuS3uZidzkp-p3v2SOw-Vw5Uh8t_F9NKnhnG_k_V3l",
+  "rootDir": "./src",
+  "scriptExtensions": [".js", ".gs"],
+  "htmlExtensions": [".html"],
+  "jsonExtensions": [".json"],
+  "filePushOrder": [
+    "00_Config.gs",
+    "01_Utils.gs",
+    "02_Outreach.gs",
+    "03_Contacts.gs",
+    "04_Projects.gs",
+    "05_Collaborations.gs",
+    "06_DailyLog.gs",
+    "07_Reports.gs",
+    "08_Dashboard.gs",
+    "09_System.gs",
+    "10_Debug.gs"
+  ],
+  "skipSubdirectories": false
+}

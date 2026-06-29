@@ -1,0 +1,25 @@
+# clasp - contains script ID
+.clasp.json
+.claspignore
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# npm
+node_modules/
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

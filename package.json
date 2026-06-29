@@ -1,0 +1,41 @@
+{
+    "name": "kiji",
+    "version": "1.0.0",
+    "description": "🏘️ KIJI — Kijiji Kidijitali (Digital Village): An open-source outreach and community engagement platform",
+    "main": "src/index.html",
+    "scripts": {
+        "login": "clasp login",
+        "logout": "clasp logout",
+        "pull": "clasp pull",
+        "push": "clasp push",
+        "deploy": "clasp deploy",
+        "deploy:version": "clasp deploy --version",
+        "open": "clasp open",
+        "status": "clasp deployments",
+        "versions": "clasp versions",
+        "logs": "clasp logs",
+        "update": "clasp pull && git add . && git commit -m 'Update from Apps Script'",
+        "release": "npm run push && npm run deploy"
+    },
+    "keywords": [
+        "kiji",
+        "kijiji",
+        "digital-village",
+        "google-apps-script",
+        "crm",
+        "outreach",
+        "community-engagement",
+        "zambia",
+        "africa",
+        "open-source",
+        "apps-script",
+        "lead-management",
+        "project-tracking"
+    ],
+    "author": "kangwa-ntema",
+    "license": "MIT",
+    "devDependencies": {
+        "@google/clasp": "^2.4.2",
+        "@types/google-apps-script": "^1.0.78"
+    }
+}
