@@ -8,6 +8,7 @@
 [![GitHub issues](https://img.shields.io/badge/dynamic/json?logo=github&label=Issues&style=flat&color=blue&query=%24.open_issues_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fkangwa-ntema%2Fkiji)](https://github.com/kangwa-ntema/kiji/issues)
 [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
 [![GitHub release](https://img.shields.io/github/v/release/kangwa-ntema/kiji)](https://github.com/kangwa-ntema/kiji/releases)
+
 ---
 
 ## 🌍 What is KIJI?
