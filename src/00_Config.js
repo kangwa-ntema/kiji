@@ -11,7 +11,7 @@ const CONFIG = {
   SPREADSHEET_ID: '',
   OUTREACH_SHEET_NAME: 'Outreach Campaigns',
   DATA_SHEET_NAME: 'Daily Log',
-  CONTACTS_SHEET_NAME: 'Community Members',
+  CONTACTS_SHEET_NAME: 'Contacts',
   PROJECTS_SHEET_NAME: 'Projects',
   COLLABORATIONS_SHEET_NAME: 'Collaborations'
 };

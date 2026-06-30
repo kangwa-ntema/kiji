@@ -37,25 +37,31 @@ It's a complete, lightweight CRM and outreach management system that turns Googl
 | **📊 Community Reports** | Status breakdowns, top institutions, activity logs |
 | **⚡ One-Click Setup** | `normalizeAllSheets()` initializes everything |
 | **📎 CSV Export** | Download data for external analysis |
-| **📱 Mobile-Friendly** | Auto-initializes and creates a Google Doc with your link |
-| **🚀 Auto-Deployment** | Web app deploys automatically on first open |
+| **📱 Mobile-Friendly** | Menu-based setup works on mobile |
+| **📄 Google Doc Integration** | Auto-generates documentation with web app link |
 
 ---
 
-## 🚀 Quick Start
+### 🚀 Quick Start
 
-### Option 1: One-Click Setup (Recommended — Works on Mobile!) 📱
+### Option 1: One-Click Setup (Recommended) 📱
 
-1. **[Click here to copy the template](https://docs.google.com/spreadsheets/d/1cT7SSGrqiNrr7WsuS3uZidzkp-p3v2SOw-Vw5Uh8t_F9NKnhnG_k_V3l/copy)**
+1. **[Click here to copy the template](https://docs.google.com/spreadsheets/d/1xlwol7ISkM6GX6BAtz2_dRE_ipuiaT86WyebkfxmI8s/copy)**
 2. Open the copied sheet (works on mobile too!)
-3. **Auto-initialization** runs automatically — no buttons to click
-4. A **Google Doc** is created in your Drive with the web app link
-5. Open the Doc and tap the link to access your Digital Village 🏘️
+3. From the **🏘️ KIJI** menu, click **Initialize Village**
+4. Wait for initialization to complete (takes 10-15 seconds)
+5. Go to **Extensions > Apps Script**
+6. Click **Deploy** > **New deployment**
+7. Click the settings gear ⚙️ next to "Web app"
+8. Set **"Execute as"** to **"Me"**
+9. Set **"Who has access"** to **"Anyone"**
+10. Click **Deploy** and copy the URL
+11. Click **Fix Deployment** from the KIJI menu to save your URL
+12. Click **Open Web App** from the KIJI menu to access your village 🏘️
 
-**That's it! No coding, no menu clicking, no Apps Script access needed.**
+**That's it! No coding required!**
 
-> 📱 **Mobile Users:** This is designed for you! Just copy the template, open it in the Google Sheets app, and the Doc with your link will appear in your Drive.
-
+> 📱 **Mobile Users:** The KIJI menu works on mobile. Just tap the menu icon (⋮) in the top-right corner of the Google Sheets app and follow the steps.
 ---
 
 ### Option 2: Manual Setup (For Developers)
@@ -191,7 +197,7 @@ const CONFIG = {
   SPREADSHEET_ID: '',  // Leave blank for active spreadsheet
   OUTREACH_SHEET_NAME: 'Outreach Campaigns',
   DATA_SHEET_NAME: 'Daily Log',
-  CONTACTS_SHEET_NAME: 'Community Members',
+  CONTACTS_SHEET_NAME: 'Contacts',
   PROJECTS_SHEET_NAME: 'Projects',
   COLLABORATIONS_SHEET_NAME: 'Collaborations'
 };
@@ -324,8 +330,7 @@ engagement hub with:
   • CSV export for external analysis
   • Status breakdowns and top institutions reporting
   • Real-time dashboard with key metrics
-  • 📱 Mobile-friendly auto-initialization
-  • 🚀 Auto-deployment of web app
+  • 📱 Mobile-friendly menu-based setup
   • 📄 Auto-generated Google Doc with web app link
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
